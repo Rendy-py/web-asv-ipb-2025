@@ -31,24 +31,42 @@ body {
   border-radius: 8px;
 }
 
-/* Left column */
-.left{
-  display: grid;
-  padding: 15px;
-}
 
-.left label {
-  display: block;
-  margin: 8px 25px;
-  font-weight: bold;
+.left{
+  display:inline;
+  padding-left: 25px;
+  padding-bottom: 0px;
 }
 
 .left p {
   margin-left: 25px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-style: italic;
 }
 
-.info {
-  margin: 12px 25px;
+.attitude{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.sog{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.cog{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.battery{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 
 }
 
