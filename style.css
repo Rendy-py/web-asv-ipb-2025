@@ -71,9 +71,17 @@ body {
 }
 
 /* Middle column placeholders */
-.placeholder {
+.camera {
   width: 100%;
-  height: 150px;
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.trajectory {
+  width: 100%;
+  height: 300px;
   background: #dcdcdc;
   margin: 15px 0;
   border-radius: 5px;
@@ -86,10 +94,19 @@ body {
   margin-bottom: 10px;
 }
 
-.small-placeholder {
+.surface {
   width: 100%;
-  height: 120px;
+  height: 300px;
   background: #dcdcdc;
   margin: 15px 0;
   border-radius: 5px;
 }
+
+.underwater {
+  width: 100%;
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
