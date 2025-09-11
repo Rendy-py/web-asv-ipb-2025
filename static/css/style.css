@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #0000aa, #330066);
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.column {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+
+.left{
+  display:inline;
+  padding-left: 25px;
+  padding-bottom: 0px;
+}
+
+.left p {
+  margin-left: 25px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.attitude{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.sog{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.cog{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+.battery{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+
+}
+
+/* Middle column placeholders */
+.camera {
+  /* width: 100%; */
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.trajectory {
+  /* width: 100%; */
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+/* Right column */
+.logo {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.air {
+  /* width: 100%; */
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.underwater {
+  /* width: 100%; */
+  height: 300px;
+  background: #dcdcdc;
+  margin: 15px 0;
+  border-radius: 5px;
+}
